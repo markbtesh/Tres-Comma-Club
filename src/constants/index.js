@@ -229,7 +229,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/malle-demo#t=1",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/malledemo.mp4#t=1",
       source_code_link: "https://github.com/",
     },
       name: "Shoptrakk.com",
