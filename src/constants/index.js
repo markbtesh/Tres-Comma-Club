@@ -125,7 +125,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-      img: "https://markbtesh.com/wp-content/uploads/2023/09/a64f7fc2-23a1-4158-815e-603ef507b6a1.jpg"
+      img: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/a64f7fc2-23a1-4158-815e-603ef507b6a1.jpg"
     },
     {
       title: "React Native Developer",
@@ -139,7 +139,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-      img: "https://markbtesh.com/wp-content/uploads/2023/09/tasha-logo.png"
+      img: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/tasha-logo.png"
     },
     {
       title: "Web Developer",
@@ -153,7 +153,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-      img: "https://markbtesh.com/wp-content/uploads/2023/09/05a461cb-40c4-4ba3-98ac-d90fc38b083d.jpg"
+      img: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/05a461cb-40c4-4ba3-98ac-d90fc38b083d.jpg"
     },
     {
       title: "Full stack Developer",
@@ -167,7 +167,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-      img: "https://markbtesh.com/wp-content/uploads/2023/11/yinyang.png"
+      img: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/yinyang.png"
     },
   ];
   
@@ -200,6 +200,38 @@ import {
   
   const projects = [
     {
+        name: "pAInter-AI (DALL-e clone)",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vercel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/malle-demo#t=1",
+      source_code_link: "https://github.com/",
+    },
       name: "Shoptrakk.com",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -217,7 +249,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.28.42-PM_Trim.mp4#t=1",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.28.42-PM_Trim.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -238,7 +270,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.49.58-PM.mp4#t=1",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.49.58-PM.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -259,7 +291,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2023/09/18.09.2023_18.39.13_REC.mp4#t=1",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.39.13_REC.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -280,7 +312,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2023/09/18.09.2023_18.58.48_REC.mp4",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.58.48_REC.mp4",
       source_code_link: "https://github.com/",
     },
     {
@@ -301,7 +333,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.50.08-PM.mp4#t=1",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.50.08-PM.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -322,7 +354,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.50.09-PM.mp4",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.50.09-PM.mp4",
       source_code_link: "https://github.com/",
     },
     {
@@ -339,7 +371,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2023/09/18.09.2023_18.40.41_REC.mp4",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.40.41_REC.mp4",
       source_code_link: "https://github.com/",
     },
     {
@@ -360,7 +392,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2023/09/18.09.2023_18.57.14_REC.mp4#t=1",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.57.14_REC.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -381,7 +413,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://markbtesh.com/wp-content/uploads/2023/11/beermayim.mp4",
+      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/beermayim.mp4",
       source_code_link: "https://github.com/",
     },
     
