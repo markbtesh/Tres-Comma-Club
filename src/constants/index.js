@@ -232,6 +232,7 @@ import {
       image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/malledemo.mp4#t=1",
       source_code_link: "https://github.com/",
     },
+      {
       name: "Shoptrakk.com",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
