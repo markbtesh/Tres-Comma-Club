@@ -13,7 +13,7 @@ const Ball = (props) => {
 
     setTimeout(() => {
       setJiggling(false);
-    }, 800);
+    }, 1500);
   };
 
   const handlePointerOut = () => {

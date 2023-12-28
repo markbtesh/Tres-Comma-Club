@@ -4,10 +4,12 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, tags, image} ) => {
+const ProjectCard = ({ index, name, description, tags, image, link} ) => {
     return (
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt
@@ -28,9 +30,12 @@ const ProjectCard = ({ index, name, tags, image} ) => {
             onMouseOut={event => event.target.pause()} />
             
           </div>
-          <a href={"https://" + name}> 
+
+          <a className="cursor-pointer" onClick={() => window.open(link === "" ? `https://${name}` : `https://${link}`, "_blank")}> 
+
           <div className="mt-5">
           <h3 >{name}</h3>
+          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
           </div>
 
           <div className='mt-4 flex flex-wrap gap-2'>
@@ -83,9 +88,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects are websites I have design and built for various clients. Each project is briefly showcased and displays the technology it uses. It reflects my
+          The following projects are websites I have designed and built for various clients. Each project is briefly showcased and displays the technology it uses. It reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          and manage projects effectively. You can find the source code to some of my projects <a href="https://github.com/markbtesh">here.</a> <a href="https://github.com/markbtesh" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} color='black' size="1x"  className=" mr-2 pr-1 pl-2 rounded-2xl" />
+      </a>
         </motion.p>
       </div>
       

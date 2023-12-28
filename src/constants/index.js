@@ -229,7 +229,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/malledemo.mp4#t=1",
+      image: "src/assets/videos/malledemo.mp4#t=1",
       source_code_link: "https://github.com/",
     },
       {
@@ -250,7 +250,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.28.42-PM_Trim.mp4#t=1",
+      image: "src/assets/videos/WhatsApp-Video-2022-05-03-at-6.28.42-PM_Trim.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -271,7 +271,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.49.58-PM.mp4#t=1",
+      image: "src/assets/videos/WhatsApp-Video-2022-05-03-at-6.49.58-PM.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -292,7 +292,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.39.13_REC.mp4#t=1",
+      image: "src/assets/videos/18.09.2023_18.39.13_REC.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -313,7 +313,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.58.48_REC.mp4",
+      image: "src/assets/videos/18.09.2023_18.58.48_REC.mp4",
       source_code_link: "https://github.com/",
     },
     {
@@ -334,7 +334,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.50.08-PM.mp4#t=1",
+      image: "src/assets/videos/WhatsApp-Video-2022-05-03-at-6.50.08-PM.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -355,7 +355,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2022/05/WhatsApp-Video-2022-05-03-at-6.50.09-PM.mp4",
+      image: "src/assets/videos/WhatsApp-Video-2022-05-03-at-6.50.09-PM.mp4",
       source_code_link: "https://github.com/",
     },
     {
@@ -372,7 +372,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.40.41_REC.mp4",
+      image: "src/assets/videos/18.09.2023_18.40.41_REC.mp4",
       source_code_link: "https://github.com/",
     },
     {
@@ -393,7 +393,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/09/18.09.2023_18.57.14_REC.mp4#t=1",
+      image: "src/assets/videos/18.09.2023_18.57.14_REC.mp4#t=1",
       source_code_link: "https://github.com/",
     },
     {
@@ -414,7 +414,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://aecostudios.com/wp-content/portfolio-uploads/2023/11/beermayim.mp4",
+      image: "src/assets/videos/beermayim.mp4",
       source_code_link: "https://github.com/",
     },
     

@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook,  faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelope, faRocket } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook,  faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -45,6 +45,9 @@ const Hero = () => {
       </a>
       <a href="https://www.linkedin.com/in/mark-btesh-a25336191/" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} color='#0a66c2' size="3x" />
+      </a>
+      <a href="https://github.com/markbtesh" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} color='black' size="3x"  className=" mr-2 pr-1 pl-2 rounded-2xl" />
       </a>
     </div>
       </div>
