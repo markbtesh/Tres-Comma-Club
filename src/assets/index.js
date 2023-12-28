@@ -26,6 +26,17 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import ae from "./videos/ae.mp4";
+import beermayim from "./videos/beermayim.mp4";
+import bhpaint from "./videos/bhpaint.mp4";
+import legend from "./videos/legend.mp4";
+import malle from "./videos/malledemo.mp4";
+import purify from "./videos/purify.mp4";
+import revaya from "./videos/revaya.mp4";
+import rkmb from "./videos/rkmb.mp4";
+import shoptrakk from "./videos/shoptrakk.mp4";
+import torn from "./videos/torn.mp4";
+
 export {
   logo,
   backend,
@@ -52,4 +63,14 @@ export {
   shopify,
   starbucks,
   tesla,
+  ae,
+  beermayim,
+  bhpaint,
+  legend,
+  malle,
+  purify,
+  revaya,
+  rkmb,
+  shoptrakk,
+  torn,
 };
