@@ -3,7 +3,6 @@ import Tilt from "react-parallax-tilt";
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc'
 
@@ -48,17 +47,15 @@ const About = () => {
 
       <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      className='mt-4 text-secondary text-[22px]  leading-[30px]'
 
       >
       
-I'm a skilled full-stack developer with a knack for creating captivating front-end interfaces using React and web platforms. Let's elevate your project together with my expertise in delivering seamless, high-performance applications.
+      Join the elite league of crypto enthusiasts where three commas in your balance aren't just a dream, they're a lifestyle. With Tres Comma Club, every trade is a step closer to financial freedom. Strap in, hold tight, and let's ride the rocketship to the moon together!
         </motion.p>
 
         <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+        
       </div>
     </>
   )

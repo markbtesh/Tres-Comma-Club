@@ -1,8 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/pixel-gamer-personal-use');
+@import url('https://fonts.cdnfonts.com/css/levi-adobe-dia');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: url('/logo.png') repreat;
+}
+
+.slider-one .slider-thumbnail img {
+  height: auto;
+  width: 100%;
+}
+
+.slider-one .slider-thumbnail img {
+  width: 1000px;
+}
+
+.chat-bubble {
+  width: 29vw;
+  
+}
 
 * {
   margin: 0;
@@ -11,6 +31,14 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+}
+
+.heroBubbleText {
+  font-family: "Pixel Gamer Personal use", sans-serif !important;
+}
+
+.dollar {
+  font-family: "Levi Adobe Dia", sans-serif !important;
 }
 
 .hash-span {
